@@ -1,7 +1,9 @@
 ---
-name: Web Development
-route: /web-development-tools
+name: List
+menu: Web Development
 ---
+
+import { List } from "./List";
 
 # Web Development
 
@@ -41,3 +43,22 @@ https://frontendchecklist.io
 ## Code Screenshots
 
 ## API Markeplace
+
+## Properties
+
+<Props of={List} />
+
+## Basic usage
+
+<Playground>
+  <List>Some message</List>
+</Playground>
+
+## Using different kinds
+
+<Playground>
+  <List kind="info">Some message</List>
+  <List kind="positive">Some message</List>
+  <List kind="negative">Some message</List>
+  <List kind="warning">Some message</List>
+</Playground>

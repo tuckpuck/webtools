@@ -1,4 +1,4 @@
 export default {
   title: "Docz Sass",
-  menu: ["Getting Started", "Web Development"],
+  menu: ["Web Development", "Components", "Getting Started"],
 };
